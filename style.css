@@ -28,9 +28,10 @@ h4 {
   margin-left: 30px;
 }
 p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
   margin-left: 10px;
+  font-family: "Poppins", sans-serif;
 }
 .Menu {
   display: flex;
@@ -39,13 +40,15 @@ p {
   width: 80%;
 }
 .button {
-  border-radius: 5px;
-  height: 40px;
-  width: 80x;
+  border-radius: 20px;
+  height: 50px;
+  width: 140px;
   padding: 10px;
-  background-color: rgb(208, 37, 193);
+  background-color: rgb(232, 96, 220);
   color: white;
   margin-left: 10px;
+  font-weight: 150px;
+  border: none;
 }
 .list {
   display: flex;
@@ -54,6 +57,13 @@ p {
 .list a {
   text-decoration: none;
   margin: 15px;
+}
+
+.logo-gallery {
+  float: right;
+  height: 100;
+  width: 80%;
+  padding-bottom: 70px;
 }
 .main {
   display: flex;
@@ -74,9 +84,24 @@ p {
   background-image: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
   height: 440px;
-  width: 541px;
-  background-size: 400px;
+  width: 350px;
+  background-size: 350px;
+  margin-right: 20%;
 }
+
+hr {
+  clear: both;
+  margin-bottom: 0px;
+  border: 0;
+  height: 6px;
+  background-image: linear-gradient(to right, white, transparent, white),
+    linear-gradient(transparent, rgba(0, 0, 0, 0.55) 150%);
+  background-image: -moz-linear-gradient(to right, white, transparent, white),
+    -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.55) 150%);
+  background-image: -ms-linear-gradient(to right, white, transparent, white),
+    -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.55) 150%);
+}
+
 .camera {
   height: 340px;
   width: 314px;
@@ -88,7 +113,7 @@ p {
 }
 
 .product-details {
-  box-shadow: 2px 2px 2px 2px #f2eaea;
+  box-shadow: 5px 5px 5px 5px #f2eaea;
   height: 400px;
   width: 310px;
   padding: 20 10;
@@ -132,6 +157,27 @@ img {
   color: white;
   font-size: 12px;
 }
-#h2 {
- 
+.see-more {
+  margin-left: 80%;
+  color: darkmagenta;
+}
+.footer-icon {
+  list-style: none;
+  display: inline;
+}
+.footer li {
+  display: inline;
+}
+.footer li i {
+  margin: 10px;
+  color: white;
+}
+
+/* ---------------Media Queries--------------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 688px) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu-div,
+  .image-grid {
+    grid-template-columns: repeat(1 1fr);
+  }
 }
