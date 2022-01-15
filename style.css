@@ -61,14 +61,11 @@ p {
   font-size: 30px;
   color: black;
   font-weight: 30px;
+  margin-right: 40px;
 }
 
-.logo-gallery {
-  float: right;
-  height: 100;
-  width: 90%;
-  padding-bottom: 70px;
-}
+
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -91,6 +88,13 @@ p {
   width: 550px;
   background-size: 500px;
   margin-right: 20%;
+}
+.logo-gallery {
+  float: right;
+  height: 100;
+  width: 90%;
+  padding-bottom: 70px;
+  margin-left: 40px;
 }
 
 hr {
