@@ -37,18 +37,19 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  width: 80%;
+  width: 90%;
 }
 .button {
   border-radius: 20px;
   height: 50px;
-  width: 140px;
+  width: 180px;
   padding: 10px;
   background-color: rgb(232, 96, 220);
   color: white;
   margin-left: 10px;
   font-weight: 150px;
   border: none;
+  font-size: 18px;
 }
 .list {
   display: flex;
@@ -57,22 +58,25 @@ p {
 .list a {
   text-decoration: none;
   margin: 15px;
+  font-size: 30px;
+  color: black;
+  font-weight: 30px;
 }
 
 .logo-gallery {
   float: right;
   height: 100;
-  width: 80%;
+  width: 90%;
   padding-bottom: 70px;
 }
 .main {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  margin-left: 13%;
-  margin-right: 40px;
-  height: 450px;
-  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 30px;
+  height: 550px;
+  max-width: 90%;
   padding: 10 40;
 }
 .main-div {
@@ -83,9 +87,9 @@ p {
 .camera-div {
   background-image: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
-  height: 440px;
-  width: 350px;
-  background-size: 350px;
+  height: 550;
+  width: 550px;
+  background-size: 500px;
   margin-right: 20%;
 }
 
@@ -103,8 +107,9 @@ hr {
 }
 
 .camera {
-  height: 340px;
-  width: 314px;
+  height: 540px;
+  width: 500px;
+  margin-right: 70px;
 }
 .image-grid {
   display: grid;
