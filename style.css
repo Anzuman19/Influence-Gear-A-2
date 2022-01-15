@@ -1,0 +1,55 @@
+*body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(245, 245, 239);
+}
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+  margin: 15px;
+}
+.main {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 450px;
+  max-width: 100%;
+  padding: 10 40;
+}
+.camera {
+  height: 340px;
+  width: 314px;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-row: 30px;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.product-details {
+  box-shadow: 5px 10px 8px 10px #888888;
+  height: 400px;
+  width: 310px;
+  padding: 20px;
+}
+.first-section {
+  height: 1500px;
+  max-width: 100%;
+
+  margin-top: 0;
+  padding: 10 40;
+  margin-left: 40px;
+}
+.caption{
+  height: 200;
+  max-width: 100%;
+}
