@@ -1,12 +1,30 @@
 *body {
   margin: 0 auto;
   padding: 0;
-  background-color: rgb(245, 245, 239);
+  background-color: rgb(235, 235, 219);
+}
+h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 2em;
+  font-weight: 50px;
+  color: rgb(7, 109, 109);
+  text-indent: 10px;
+}
+h2{
+  font-size: 2.5em;
 }
 .Menu {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+.button {
+  border-radius: 5px;
+  height: 40px;
+  width: 80x;
+  padding: 10px;
+  background-color: rgb(208, 37, 193);
+  color: white;
 }
 .list {
   display: flex;
@@ -18,11 +36,28 @@
 }
 .main {
   display: flex;
+  justify-content: space-between;
   margin-top: 40px;
   margin-left: 40px;
+  margin-right: 40px;
   height: 450px;
   max-width: 100%;
   padding: 10 40;
+  background-color: burlywood;
+ 
+}
+.main-div{
+  height: 580px;
+  width: 450px;
+  padding-left: 30 20 ;
+
+}
+.camera-div{
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  height: 440px;
+  width: 541px;
+  background-size: 400px;
 }
 .camera {
   height: 340px;
@@ -32,14 +67,18 @@
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   grid-row: 30px;
-  align-items: center;
+
   grid-gap: 1rem;
 }
 .product-details {
-  box-shadow: 5px 10px 8px 10px #888888;
+  box-shadow: 2px 2px 2px 2px #f2eaea;
   height: 400px;
   width: 310px;
-  padding: 20px;
+  padding: 20 10;
+  margin: 20 10;
+  align-items: center;
+
+  background-color: white;
 }
 .first-section {
   height: 1500px;
@@ -47,9 +86,15 @@
 
   margin-top: 0;
   padding: 10 40;
-  margin-left: 40px;
+  margin-left: 50px;
 }
-.caption{
-  height: 200;
+.caption {
+  height: 300;
   max-width: 100%;
+  align-items: center;
+margin-left: 35%;
+
+
+
+ 
 }
