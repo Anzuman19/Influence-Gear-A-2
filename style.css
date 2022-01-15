@@ -4,15 +4,15 @@
 }
 h1 {
   font-family: "Yeseva One", cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 50px;
   color: rgb(7, 109, 109);
   text-indent: 10px;
   line-height: 40px;
 }
 #h1 {
-  font-size: 70px;
-  line-height: 90px;
+  font-size: 50px;
+  line-height: 60px;
 }
 h2 {
   font-size: 2.5em;
@@ -28,10 +28,15 @@ h4 {
   margin-left: 30px;
 }
 p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 35px;
   margin-left: 10px;
   font-family: "Poppins", sans-serif;
+}
+.P{
+  font-size: 15px;
+  line-height: normal;
+  margin-left: 20px;
 }
 .Menu {
   display: flex;
@@ -44,12 +49,13 @@ p {
   height: 50px;
   width: 180px;
   padding: 10px;
-  background-color: rgb(232, 96, 220);
+  background-color: rgb(38, 133, 80);
   color: white;
   margin-left: 10px;
   font-weight: 150px;
   border: none;
   font-size: 18px;
+  cursor: g;
 }
 .list {
   display: flex;
@@ -123,7 +129,7 @@ hr {
 
 .product-details {
   box-shadow: 5px 5px 5px 5px #f2eaea;
-  height: 400px;
+  height: 450px;
   width: 310px;
   padding: 20 10;
   margin: 20 10;
@@ -132,8 +138,12 @@ hr {
 
   background-color: white;
 }
+.span{
+  margin-left: 20px;
+  color: orange;
+}
 .first-section {
-  height: 1500px;
+  height: 1800px;
   max-width: 70%;
 
   margin-top: 0;
@@ -153,7 +163,7 @@ img {
 }
 .footer {
   max-width: 100%;
-  height: 300px;
+  height: 200px;
   background-color: black;
   text-align: center;
   padding-top: 50px;
